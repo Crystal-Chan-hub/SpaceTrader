@@ -1,5 +1,5 @@
 # SpaceTraderApp User Guide
-###### This project is developed using [Space Trader API](https://spacetraders.io/).
+#### This project is developed using [Space Trader API](https://spacetraders.io/).
 ## To run:
 - To launch, use command `gradle run --args="[online/offline]"`, use either online or offline in the brackets with to control if this app will use online API.
 - eg. `gradle run --args="offline"`
@@ -17,7 +17,7 @@ You can press ***Back*** button to go back to the initial page.
 Once you logged in or created new account, you are able to copy your token from the text box described as ***Save token for login*** to save it on your device for later login.
 Game status is shown at the bottom of the window.
 
-###### Left buttons are user related buttons:
+### Left buttons are user related buttons:
 - ***User Info*** button: This button will navigate you to a new Page. You are able to view your personal information in this page.You can press ***Back*** button to go back to the Main page.
 
 - ***Your Loans*** button: This button will navigate you to a new Page. You are able to view your loans information in this page. If you have not request for any loans, page will display related message. If you have active loans, they will be able to pay off loans in this page. Loans ids will be displayed in text box described as ***Your loans ids are listed below*** for you to copy. You need to input the loans id that they wish to pay off in the given text box described as ***Loan id to pay off*** and press ***Pay off*** button to pay off that loan.You can press ***Back*** button to go back to the Main page.
@@ -27,7 +27,7 @@ Game status is shown at the bottom of the window.
 
 - ***Nearby Locations*** button: This button will navigate you to a new Page. You are able to view the nearby locations in the same system in this page. You can press ***Back*** button to go back to the Main page.
 
-###### Center buttons are requests related buttons:
+### Center buttons are requests related buttons:
 - ***Request Loans*** button: This button will navigate you to a new Page. You can view available loans and obtain loans from this page. You can input the loan type that you wish to obtain in the text box described as ***Loans type***. You can then press the ***Request*** button to obtain the loan you wished. You can press ***Back*** button to go back to the Main page.
      - ***Request*** button: If you have successfully obtained a loan, this will navigate you to a new page with succeed loans info. You can press ***Back*** button to go back to the Main page. If you have not succeed, a warning window will pop out with related message. You will need to close the warning window to do further steps.
 
@@ -39,7 +39,7 @@ Game status is shown at the bottom of the window.
 
      - ***View current flight plan*** button: If you have current flight plan, this will navigate you to a new Page with your current flight plan info. You can press ***Back*** button to go back to the Main page. You can press ***Refresh current flight plan*** button to manually refresh the current flight plan. If you have no current flight plan, a warning window will pop out with related message. You will need to close the warning window to do further steps.
 
-###### Right buttons are marketplace related buttons:
+### Right buttons are marketplace related buttons:
 - ***Marketplace*** button: You view the marketplace details of a location by inputting the location that you want view in the text box described as ***Location***. Then, you can press the ***Get*** button to get the marketplace info for that location. You can press ***Back*** button to go back to the Main page.
      - ***Get*** button: If the get of marketplace info of this location succeed, this will navigate you to a new page with info of the marketplace in the location you have input. You can press ***Back*** button to go back to the Main page. If you the get failed, a warning window will pop out with related message. You will need to close the warning window to do further steps.
 
